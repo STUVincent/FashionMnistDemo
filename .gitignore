@@ -1,0 +1,7 @@
+# Initially taken from Github's Python gitignore file
+.idea/
+_temp/
+_log/
+_result/
+_TFRecordData/
+__pycache__/
