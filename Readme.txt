@@ -1,5 +1,8 @@
 此程序以 FashionMnist 作为数据集，用 TensorFlow 实现的分类模型 Demo
 
+python 3.5  TensorFlow 1.12.0
+直接运行 demo.py 脚本， 或者通过linux_train.sh 脚本
+
 以下为运行后的文件列表
 C:\Users\Vincent\Desktop\FashionMnist_Demo  Folder Size:【121.191 MB】
                           
