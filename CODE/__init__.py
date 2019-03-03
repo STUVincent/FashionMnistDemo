@@ -9,5 +9,9 @@
 """
 from .train_data import get_train_tfrecord_data   # 获取训练数据 TFRecord 数据
 from .train_data import get_dev_data              # 获取验证数据
-from .model import BP, CNN, CNN2                  # 创建模型
-from .model import run_trainer                    # 训练模型
+from .Configure import GlobalConstants            # 全局常量
+from .Train_common import print_model_info        # 打印模型训练变量、 损失函数、 TensorBoard 监控变量
+from .Train_common import tensorboard_monitor     # Tensorboard 监测
+from .Train_common import train_optimizer         # 优化器
+from .Init import argument_init                   # 输入参数设置、全局参数、日志初始化
+from .Train_common import save_variables_and_metagraph  # 模型训练过程保存
